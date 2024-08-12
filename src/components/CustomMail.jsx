@@ -25,7 +25,7 @@ function CustomMail({ threadId, onClose }) {
     const token = localStorage.getItem("token");
     try {
       await axios.post(
-        `https://hiring.reachinbox.xyz/api/v1/onebox/reply/:thread_id`,
+        `https://hiring.reachinbox.xyz/api/v1/onebox/reply/${thread_id}`,
         replyData,
         {
           headers: {
