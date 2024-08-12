@@ -13,7 +13,7 @@ import { IoLinkSharp } from "react-icons/io5";
 import { RxCross2 } from "react-icons/rx";
 import { TbSquareLetterA } from "react-icons/tb";
 
-function CustomMail({ threadId, onClose }) {
+function CustomMail({ thread_id, onClose }) {
   const [replyData, setReplyData] = useState({
     to: "",
     from: "",
