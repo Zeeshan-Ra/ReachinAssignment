@@ -134,7 +134,7 @@ const CenterPage = ({ selectedThread }) => {
       <div className="mx-8">
         {showPopUp && (
           <CustomMail
-            threadId={selectedThread}
+            thread_id={selectedThread}
             onClose={() => setShowPopUp(false)}
           />
         )}
